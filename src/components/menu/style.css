@@ -1,0 +1,29 @@
+.menu {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    padding: 10px 20px;
+    background-color: rgba(29, 2, 69, 0.5);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: space-around;
+    z-index: 100;
+}
+
+.menu a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #b81ddb;
+    filter: invert(76%) sepia(4%) saturate(0%) hue-rotate(155deg) brightness(90%) contrast(90%);
+}
+
+.menu a img {
+    width: 40px;
+    margin-bottom: 2px;
+}
+
+.menu-active {
+    filter: invert(21%) sepia(99%) saturate(6211%) hue-rotate(286deg) brightness(99%) contrast(91%) !important;
+}

@@ -1,0 +1,85 @@
+.container {
+    padding-top: 20px;
+}
+
+
+.game-descr {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.back {
+    padding: 10px;
+    width: 100%;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(180deg, rgba(2, 0, 36, 1) 9%, rgba(9, 9, 121, 0.3071822478991597) 35%, rgba(0, 212, 255, 0) 100%);
+    position: fixed;
+    top: 0;
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+
+}
+
+.game-descr-text {
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(0deg, rgba(2, 0, 36, 1) 9%, rgba(9, 9, 121, 0.3071822478991597) 63%, rgba(0, 212, 255, 0) 100%);
+}
+
+
+.download {
+    width: 30%;
+    padding: 5px;
+    background-color: #b81ddb;
+    border: 1px solid #b81ddb;
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    font-weight: 900;
+}
+
+.download:active {
+    border: 1px solid #b81ddb;
+    background-color: black;
+}
+
+.game-descr-box {
+    color: white;
+    padding: 10px;
+    background-color: darkgray;
+    border-radius: 20px 0 20px 0;
+}
+
+.game-descr-box h1 {
+    font-weight: 700;
+    color: #b81ddb;
+    margin-bottom: 10px;
+}
+
+.game-descr p {
+    font-weight: 200;
+}
+
+.game-descr span {
+    font-weight: 700;
+}
+
+.des-tit {
+    margin-top: 20px;
+}
+
+.backsvg {
+    padding: 4px;
+    width: 28px;
+    border-radius: 100%;
+    background-color: #b81ddb;
+}
